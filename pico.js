@@ -110,7 +110,7 @@ pico.run_cascade = function(image, classify_region, params)
 				if (q > 0.0)
 					detections.push([r, c, scale, q]);
 			}
-		
+
 		scale = scale*scalefactor;
 	}
 
